@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/greet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        tools:text="Morning"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textSize="28dp"
+        android:textColor="@color/black"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/ubuntu_medium"-->
+<!--        android:textColor="#2F9A1E"-->
+<!--        android:textSize="25dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.08"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.101"-->
+<!--        android:text="Aryan!"-->
+<!--        tools:text="Aryan!" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_baseline_account_circle_24"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.931"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/greet"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.065" />-->
+    <ImageButton
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toEndOf="@+id/greet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/heal_your_crop"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greet"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/frame"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_leaf" />
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="75dp"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="13dp"
+                android:text="@string/take_a_picture"
+                android:textAlignment="center"
+                android:textColor="#B2000000" />
+
+            <ImageView
+                android:layout_width="21dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginLeft="120dp"
+                android:src="@drawable/ic_vector2" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="160dp"
+                android:src="@drawable/mobile" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="76dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Get the result"
+                android:textAlignment="center"
+                android:textColor="#B2000000"
+                android:textSize="13dp" />
+
+            <ImageView
+                android:layout_width="21dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginLeft="240dp"
+                android:src="@drawable/ic_vector2" />
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/testtube" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="75dp"
+                android:fontFamily="@font/roboto_light"
+                android:text="Take the diagnosis"
+                android:textAlignment="center"
+                android:textColor="#B2000000"
+                android:textSize="13dp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/choose_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:height="50dp"
+            android:backgroundTint="#1C7ED8"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/take_a_picture"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:cornerRadius="30dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

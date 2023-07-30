@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920074611122",
+    "project_id": "tomatodiseaseprediction",
+    "storage_bucket": "tomatodiseaseprediction.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920074611122:android:6fa96128aa630258819cab",
+        "android_client_info": {
+          "package_name": "com.aanda.tomatodiseaseprediction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920074611122-31uqtnbtp0qrr2tob4l3off1f2jmdab9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLYGeRd7oCWHunmcgmhjiTmEcP6B80YEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920074611122-31uqtnbtp0qrr2tob4l3off1f2jmdab9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

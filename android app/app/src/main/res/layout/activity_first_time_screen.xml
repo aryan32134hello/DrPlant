@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".IntroActivity">
+
+    <RelativeLayout android:id="@+id/page__1st_time_screen_ek1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Welcome to"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/drplant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/ubuntu_medium"
+            tools:text="DrPlant"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="36dp"
+            tools:ignore="HardcodedText" />
+
+
+        <View   android:id="@+id/ellipse_2"
+        android:background="@drawable/ellipse_2_shape"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="240dp"
+        android:layout_width="17dp"
+        android:layout_height="17dp" />
+
+    <View   android:id="@+id/ellipse_3"
+        android:background="@drawable/ellipse_3_shape"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="124dp"
+        android:layout_width="12dp"
+        android:layout_height="12dp" />
+
+        <ImageView
+            android:id="@+id/subtract"
+            android:layout_width="285dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="260dp"
+            android:layout_marginStart="63.9dp"
+            android:layout_marginTop="164.96dp"
+            android:contentDescription="subtract"
+            android:src="@drawable/subtract" />
+
+    <ImageView android:id="@+id/wepik_export_202306252019520rxk_1"
+        android:src="@drawable/wepik_export_202306252019520rxk_1"
+        android:contentDescription="wepik_export_202306252019520rxk_1"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="201dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="234dp"
+        android:layout_height="194dp" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Your Crops Healthy!"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="center"/>
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="45dp"-->
+<!--        android:layout_marginRight="45dp"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:hint="Your Name"-->
+<!--        android:textColorHint="@color/black">-->
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/name_tv"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:textSize="16dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/let_s_get_started"
+        android:textSize="22dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/rectangle_3_shape"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DrPlant</string>
+    <string name="let_s_get_started">Let\'s Get Started</string>
+    <string name="heal_your_crop">Heal Your Crop!</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="select_from_camera">Select From Camera</string>
+    <string name="select_from_gallery">Select From Gallery</string>
+</resources>
